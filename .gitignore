@@ -1,0 +1,25 @@
+# Large data files
+*.csv
+*.pt
+*.so
+*.h5
+*.hdf5
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+
+# System
+.DS_Store
+.vscode/
+
+# Sensitive
+.claude/
+api_key.py
+
+# Large image folders
+Final Project/tumor_diagnosis/train_tumor/
+Final Project/tumor_diagnosis/train_normal/
+Final Project/tumor_diagnosis/test/
